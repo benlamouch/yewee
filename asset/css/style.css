@@ -115,18 +115,20 @@ header
 }
 .team_content_contain
 {
+    font-family: helvetica;
     height:             100vh;
     margin-top:         100px;
 }
 .back_title
 {
-    font-family: helvetica;
     font-weight: bold;
     margin:             0;
-    font-size:          20em;
-    line-height:        1em;
+    font-size:          250px;
+    line-height:        1.2em;
     color:              rgba(255, 255, 255, 0.1);
     margin-left:        -10%;
+    letter-spacing: 0.3em;
+
 }
 .team_container
 {
@@ -138,13 +140,33 @@ header
 }
 .team_image
 {
-    background-color:   tomato;
-    width:              350px;
-    height:             350px;
-    min-width:          350px;
+    background-color:   white;
+    opacity:            0.7;
+    width:              345px;
+    height:             345px;
+    min-width:          345px;
     margin-right:       4em;
+    overflow: hidden;
+}
+.team_image img
+{
+    width: 100%;
+    height: auto;
 }
 .team_info
 {
-    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 1.5em;
+    padding-bottom: 3em;
+}
+.team_info h3
+{
+    letter-spacing: 0.5em;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 80px;
+    line-height: 1.2em;
 }
