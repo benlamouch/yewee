@@ -1,7 +1,6 @@
 /*==================!!!!!!!!!!!!==================*/
 /******************* COMMUN ALL *******************/
 /*==================!!!!!!!!!!!!==================*/
-
 .site_content_contain_home
 {
     height:             100vh;
@@ -63,13 +62,14 @@ header
     background-size:    cover;
     color:              white;
     text-align:         center;
-    font-family:        'Palanquin', sans-serif;
+    font-family:        'niquetamere';
 }
 
 .main_title 
 {
     height:             40vh;
-    font-family:        'Open Sans', sans-serif;
+    font-family:        'Roboto', sans-serif;
+    font-weight:        100!important;
 }
 
 .main_title h1
