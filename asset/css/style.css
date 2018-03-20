@@ -62,16 +62,22 @@ header
 {
     text-decoration:    none;
     color:              white;
+    letter-spacing:     0.6em;
 }
 
 .link_project
 {
-    display: flex;
-    flex-direction: column;
+    display:            flex;
+    flex-direction:     column;
+}
+
+.link_project h3
+{
+    letter-spacing:     0.6em;
 }
 
 .link_project hr
 {
-    height: 5em;
-    border : 2px solid white;
+    height:             5em;
+    border :            2px solid white;
 }
