@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="asset/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
 
 <body class="home_body">
     <div class="site_content_contain_home">
-        <header>
+        <header class="animated slideInDown">
             <nav class="menu_container">
                 <ul class="menu">
                     <li class="menu_item_content">
@@ -34,7 +35,7 @@
             <h1>Y E W E E</h1>
             <h2>Yewee design Yewee developp</h2>
         </div>
-        <div class="icon_scrolldown">
+        <div class="animated slideInUp icon_scrolldown">
             <img src="data:image/png;base64,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">
         </div>
     </div>
@@ -46,7 +47,7 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
     <!-- Application de l'effet -->
-  <script src="asset/js/fade_home.js"></script>
+    <script src="asset/js/fade_home.js"></script>
 
 </body>
 
