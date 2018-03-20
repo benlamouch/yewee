@@ -8,7 +8,7 @@
     color:              white;
 }
 
-#team_section, #hide_main 
+#team_section, #hide_main, #about_section 
 {
     display:            none;
 }
@@ -194,11 +194,11 @@ header
 {
     padding:            0;
     margin:             0;
-    background:         white;
+    background-color:   white;
     background-size:    cover;
     color:              black;
     text-align:         center;
-    font-family:        'Palanquin', sans-serif;
+    font-family:        'Roboto', sans-serif;
 }
 .about_body a
 {
@@ -210,6 +210,11 @@ header
     margin-left: 5em;
 }
 
+.about_section h2
+{
+    color: black;
+    letter-spacing: 0.5em;
+}
 .about_flex 
 {
     display: flex;
@@ -217,7 +222,6 @@ header
     flex-wrap: wrap;
     /* justify-content: space-between; */
 }
-
 .bloc_about
 {
     width: 30%;
@@ -225,11 +229,13 @@ header
     padding-right: 10%;
     padding-top: 1em;
     padding-bottom: 1em;
-    text-align: justify;
 }
 
-
-
+.bloc_about h3
+{
+    color: #c9eafe;
+    letter-spacing: 0.3em;
+}
 .hover-underline-menu {
     width: 100%;
   }
@@ -259,3 +265,4 @@ header
     transition: all 0.5s ease;
   }
   
+
