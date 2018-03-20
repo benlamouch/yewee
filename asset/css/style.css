@@ -9,6 +9,10 @@
     color:              white;
 }
 
+#team_section, #hide_main {
+    display: none;
+    }
+
 header 
 {
     height:             30vh;
