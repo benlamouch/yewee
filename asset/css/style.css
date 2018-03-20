@@ -1,4 +1,4 @@
-/* ON S4ATTAQUE D'AORD AU BODY */
+/* ON S'ATTAQUE D'ABORD AU BODY */
 
 body {
     padding:            0;
@@ -15,7 +15,8 @@ body {
     width:              100%;  
 }
 
-header {
+header 
+{
     height:             30vh;
     display:            flex;
     flex-direction:     row;
@@ -23,10 +24,12 @@ header {
     justify-content:    space-around;
     width:              100%;
 }
-nav{
+nav
+{
     width: 100%;
 }
-.titre_principal {
+.titre_principal 
+{
     height:             40vh;
     font-family:        'Open Sans', sans-serif;
 }
@@ -45,7 +48,8 @@ nav{
     justify-content:    space-around;
 }
 
-ul {
+ul 
+{
     display:            flex;
     flex-direction:     row;
     list-style:         none;
@@ -54,7 +58,8 @@ ul {
     padding:            0;
 }
 
-ul a {
+ul a 
+{
     text-decoration:    none;
     color:              white;
 }
@@ -65,7 +70,8 @@ ul a {
     flex-direction: column;
 }
 
-.projet hr{
+.projet hr
+{
     height: 5em;
     border : 2px solid white;
 }
