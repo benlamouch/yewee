@@ -57,6 +57,7 @@ header
     background:         linear-gradient(#f2cde5, #c9eafe);
     background-size:    cover;
     color:              white;
+    text-align:         center;
     font-family:        'Palanquin', sans-serif;
 }
 
@@ -107,8 +108,11 @@ header
     padding:            0;
     margin:             0;
     background-size:    cover;
-    text-align:         center;
     background-color:   grey;
     color:              white;
     font-family:        'Palanquin', sans-serif;
+}
+.team_container
+{
+    display: flex;
 }
