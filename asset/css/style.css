@@ -127,18 +127,20 @@ header
 .back_title
 {
     font-weight: bold;
-    margin:             0;
+
     font-size:          15.6em;
     line-height:        1.2em;
     color:              rgba(255, 255, 255, 0.1);
     margin-left:        -10%;
     letter-spacing:     0.3em;
+    display:            block;
     overflow:           hidden;
+    width: 1700px;
 
 }
 .team_container
 {
-    top:                -65%;
+    top:                -90%;
     position:           relative;
     width:              70%;
     margin:             auto;
