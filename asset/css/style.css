@@ -10,7 +10,7 @@ body {
     font-family:        'Palanquin', sans-serif;
 }
 
-.encaps{
+.site_content_contain{
     height:             100vh;
     width:              100%;  
 }
@@ -24,23 +24,23 @@ header
     justify-content:    space-around;
     width:              100%;
 }
-nav
+.menu_container
 {
     width: 100%;
 }
-.titre_principal 
+.main_title 
 {
     height:             40vh;
     font-family:        'Open Sans', sans-serif;
 }
 
-.titre_principal h1
+.main_title h1
 {
     padding:            0;
     margin:             0;
     font-size:          8em;
 }
-.img{
+.icon_scrolldown{
     height:             30vh;
     display:            flex;
     flex-direction:     row;
@@ -48,7 +48,7 @@ nav
     justify-content:    space-around;
 }
 
-ul 
+.menu 
 {
     display:            flex;
     flex-direction:     row;
@@ -58,19 +58,19 @@ ul
     padding:            0;
 }
 
-ul a 
+.menu_item
 {
     text-decoration:    none;
     color:              white;
 }
 
-.projet
+.link_project
 {
     display: flex;
     flex-direction: column;
 }
 
-.projet hr
+.link_project hr
 {
     height: 5em;
     border : 2px solid white;
