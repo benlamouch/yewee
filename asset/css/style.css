@@ -25,12 +25,12 @@ header
 
 .menu_container
 {
+    padding-top:        3em;
     width:              100%;
 }
 
 .menu 
 {
-    margin-top:         4em;
     display:            flex;
     flex-direction:     row;
     list-style:         none;
