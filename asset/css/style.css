@@ -9,14 +9,6 @@
     color:              white;
     font-family:        'Palanquin', sans-serif;
 }
-.team_body {
-    padding:            0;
-    margin:             0;
-    background-size:    cover;
-    text-align:         center;
-    color:              white;
-    font-family:        'Palanquin', sans-serif;
-}
 
 .site_content_contain{
     height:             100vh;
@@ -95,3 +87,12 @@ header
 /******************* PAGE TEAM *******************/
 /*==================!!!!!!!!!!!==================*/
 
+.team_body {
+    padding:            0;
+    margin:             0;
+    background-size:    cover;
+    text-align:         center;
+    background-color:   whitesmoke;
+    color:              white;
+    font-family:        'Palanquin', sans-serif;
+}
