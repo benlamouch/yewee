@@ -105,14 +105,44 @@ header
 /*==================!!!!!!!!!!!==================*/
 
 .team_body {
+    overflow-x: hidden;
     padding:            0;
     margin:             0;
     background-size:    cover;
-    background-color:   grey;
+    background-color:   #565656;
     color:              white;
     font-family:        'Palanquin', sans-serif;
 }
+.team_content_contain
+{
+    height:             100vh;
+    margin-top:         100px;
+}
+.back_title
+{
+    margin:             0;
+    font-size:          20em;
+    line-height:        1em;
+    color:              gray;
+    margin-left:        -10%;
+}
 .team_container
 {
-    display: flex;
+    top:                -65%;
+    position:           relative;
+    width:              70%;
+    margin:             auto;
+    display:            flex;
+}
+.team_image
+{
+    background-color:   tomato;
+    width:              350px;
+    height:             350px;
+    min-width:          350px;
+    margin-right:       4em;
+}
+.team_info
+{
+    font-size: 1.3em;
 }
