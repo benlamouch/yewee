@@ -1,21 +1,12 @@
-/* ON S'ATTAQUE D'ABORD AU BODY */
-
-.home_body {
-    padding:            0;
-    margin:             0;
-    background:         linear-gradient(#f2cde5, #c9eafe);
-    background-size:    cover;
-    text-align:         center;
-    color:              white;
-    font-family:        'Palanquin', sans-serif;
-}
+/*==================!!!!!!!!!!!!==================*/
+/******************* COMMUN ALL *******************/
+/*==================!!!!!!!!!!!!==================*/
 
 .site_content_contain
 {
     height:             100vh;
     width:              100%;  
     color:              white;
-    background-color:   grey;
 }
 
 header 
@@ -23,37 +14,23 @@ header
     height:             30vh;
     width:              100%;
 }
+
+/**************** menu ****************/
+
 .menu_content_contain
 {
-    display: flex;
-    justify-content: space-around;
+    display:            flex;
+    justify-content:    space-around;
 }
+
 .menu_container
 {
     width:              100%;
 }
-.main_title 
-{
-    height:             40vh;
-    font-family:        'Open Sans', sans-serif;
-}
-
-.main_title h1
-{
-    padding:            0;
-    margin:             0;
-    font-size:          8em;
-}
-.icon_scrolldown{
-    height:             30vh;
-    display:            flex;
-    flex-direction:     row;
-    align-items:        center;
-    justify-content:    space-around;
-}
 
 .menu 
 {
+    margin-top:         4em;
     display:            flex;
     flex-direction:     row;
     list-style:         none;
@@ -67,6 +44,42 @@ header
     text-decoration:    none;
     color:              white;
     letter-spacing:     0.6em;
+}
+
+
+/*==================!!!!!!!!!!!==================*/
+/******************* PAGE ACCUEIL *******************/
+/*==================!!!!!!!!!!!==================*/
+
+.home_body {
+    padding:            0;
+    margin:             0;
+    background:         linear-gradient(#f2cde5, #c9eafe);
+    background-size:    cover;
+    text-align:         center;
+    color:              white;
+    font-family:        'Palanquin', sans-serif;
+}
+
+.main_title 
+{
+    height:             40vh;
+    font-family:        'Open Sans', sans-serif;
+}
+
+.main_title h1
+{
+    padding:            0;
+    margin:             0;
+    font-size:          8em;
+}
+
+.icon_scrolldown{
+    height:             30vh;
+    display:            flex;
+    flex-direction:     row;
+    align-items:        center;
+    justify-content:    space-around;
 }
 
 .link_project
@@ -96,7 +109,7 @@ header
     margin:             0;
     background-size:    cover;
     text-align:         center;
-    background-color:   whitesmoke;
+    background-color:   grey;
     color:              white;
     font-family:        'Palanquin', sans-serif;
 }
