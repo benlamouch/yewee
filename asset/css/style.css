@@ -2,16 +2,17 @@
 /******************* COMMUN ALL *******************/
 /*==================!!!!!!!!!!!!==================*/
 
-.site_content_contain
+.site_content_contain_home
 {
     height:             100vh;
     width:              100%;  
     color:              white;
 }
 
-#team_section, #hide_main {
-    display: none;
-    }
+#team_section, #hide_main 
+{
+    display:            none;
+}
 
 header 
 {
@@ -107,9 +108,12 @@ header
 /*==================!!!!!!!!!!!==================*/
 /******************* PAGE TEAM *******************/
 /*==================!!!!!!!!!!!==================*/
-
+.site_content_contain
+{
+    font-family:        helvetica;
+}
 .team_body {
-    overflow-x: hidden;
+    overflow-x:         hidden;
     padding:            0;
     margin:             0;
     background-size:    cover;
@@ -117,17 +121,21 @@ header
     color:              white;
     font-family:        'Palanquin', sans-serif;
 }
+.section_title
+{
+    width:              90%;
+    margin:             auto;
+    font-weight:        bold;
+}
 .team_content_contain
 {
-    font-family:        helvetica;
     height:             100vh;
     margin-top:         100px;
     min-height:         700px;
 }
 .back_title
 {
-    font-weight: bold;
-
+    font-weight:        bold;
     font-size:          15.6em;
     line-height:        1.2em;
     color:              rgba(255, 255, 255, 0.1);
@@ -135,7 +143,7 @@ header
     letter-spacing:     0.3em;
     display:            block;
     overflow:           hidden;
-    width: 1700px;
+    width:              1700px;
 
 }
 .team_container
@@ -158,23 +166,23 @@ header
 }
 .team_image img
 {
-    width: 100%;
-    height: auto;
+    width:              100%;
+    height:             auto;
 }
 .team_info
 {
-    display: flex;
-    flex-direction: column;
-    font-size: 18px;
-    font-weight: 100;
-    line-height: 1.5em;
-    padding-bottom: 3em;
+    display:            flex;
+    flex-direction:     column;
+    font-size:          18px;
+    font-weight:        100;
+    line-height:        1.5em;
+    padding-bottom:     3em;
 }
 .team_info h3
 {
-    letter-spacing: 0.5em;
-    font-size: 36px;
-    margin-top: 0;
-    margin-bottom: 80px;
-    line-height: 1.2em;
+    letter-spacing:     0.5em;
+    font-size:          36px;
+    margin-top:         0;
+    margin-bottom:      80px;
+    line-height:        1.2em;
 }
