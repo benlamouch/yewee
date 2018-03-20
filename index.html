@@ -30,7 +30,7 @@
                 </ul>
             </nav>
         </header>
-        <div class="main_title">
+        <div class="main_title" id="hide_main">
             <h1>Y E W E E</h1>
             <h2>Yewee design Yewee developp</h2>
         </div>
@@ -39,9 +39,21 @@
         </div>
     </div>
     <div class="link_project">
-            <h3>PROJET DE RÉALISATION</h3>
-            <hr>    
+        <h3>PROJET DE RÉALISATION</h3>
+        <hr>
     </div>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+    <!-- Application de l'effet -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            // effet fondu en entrée à l'ouverture de la page
+            $('#hide_main').fadeIn(1000);
+
+        });
+    </script>
 
 </body>
 
