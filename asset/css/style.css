@@ -1,9 +1,45 @@
 /* ON S4ATTAQUE D'AORD AU BODY */
-body
+
+body {
+    padding:            0;
+    margin:             0;
+    height:             100vh;
+    width:              100%;
+    background:         linear-gradient(#ca9feb, #b9fcfb);
+    color:              white;
+    font-family:        'Palanquin', sans-serif;
+    text-align:         center;
+}
+
+header {
+    height:             20vh;
+}
+
+.titre_principal {
+    height:             40vh;
+    font-family:        'Open Sans', sans-serif;
+}
+
+.titre_principal h1
 {
-    padding: 0;
-    margin: 0;
-    height: 100vh;
-    width: 100%;
-    background: linear-gradient(#ca9feb, #b9fcfb);
+    padding:            0;
+    margin:             0;
+    font-size:          8em;
+}
+.projet{
+    height:             40vh;
+}
+
+ul {
+    display:            flex;
+    flex-direction:     row;
+    list-style:         none;
+    width:              100%;
+    justify-content:    space-around;
+    padding:            0;
+}
+
+ul a {
+    text-decoration:    none;
+    color:              white;
 }
