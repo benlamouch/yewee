@@ -119,19 +119,21 @@ header
 }
 .team_content_contain
 {
-    font-family: helvetica;
+    font-family:        helvetica;
     height:             100vh;
     margin-top:         100px;
+    min-height:         700px;
 }
 .back_title
 {
     font-weight: bold;
     margin:             0;
-    font-size:          250px;
+    font-size:          15.6em;
     line-height:        1.2em;
     color:              rgba(255, 255, 255, 0.1);
     margin-left:        -10%;
-    letter-spacing: 0.3em;
+    letter-spacing:     0.3em;
+    overflow:           hidden;
 
 }
 .team_container
@@ -150,7 +152,7 @@ header
     height:             345px;
     min-width:          345px;
     margin-right:       4em;
-    overflow: hidden;
+    overflow:           hidden;
 }
 .team_image img
 {
