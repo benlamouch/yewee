@@ -62,13 +62,13 @@ header
     background-size:    cover;
     color:              white;
     text-align:         center;
-    font-family:        'niquetamere';
+    font-family:        'Roboto', sans-serif;
 }
 
 .main_title 
 {
     height:             40vh;
-    font-family:        'Roboto', sans-serif;
+    font-family:        'Roboto', sans-serif!important;
     font-weight:        100!important;
 }
 
