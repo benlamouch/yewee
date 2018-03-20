@@ -1,7 +1,10 @@
 /*==================!!!!!!!!!!!!==================*/
 /******************* COMMUN ALL *******************/
 /*==================!!!!!!!!!!!!==================*/
-
+@font-face {
+	font-family: "helveticalight";
+	src: url('../font/HelveticaLt.ttf');
+}
 .site_content_contain_home
 {
     height:             100vh;
@@ -63,13 +66,13 @@ header
     background-size:    cover;
     color:              white;
     text-align:         center;
-    font-family:        'Palanquin', sans-serif;
+    font-family:        "helveticalight";
 }
 
 .main_title 
 {
     height:             40vh;
-    font-family:        'Open Sans', sans-serif;
+    font-family:        Helvetica;
 }
 
 .main_title h1
