@@ -69,8 +69,7 @@ header
 .main_title 
 {
     height:             40vh;
-    font-family:        'Roboto', sans-serif!important;
-    font-weight: lighter ;
+    font-family: 'Lato', sans-serif;
 }
 
 .main_title h1
@@ -120,7 +119,7 @@ header
     background-size:    cover;
     background-color:   #4A4A4A;
     color:              white;
-    font-family:        'Palanquin', sans-serif;
+    font-family:        'Roboto', sans-serif;
 }
 .section_title
 {
