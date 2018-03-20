@@ -186,3 +186,44 @@ header
     margin-bottom:      80px;
     line-height:        1.2em;
 }
+
+/*==================!!!!!!!!!!!==================*/
+/******************* PAGE ABOUT ******************/
+/*==================!!!!!!!!!!!==================*/
+.about_body
+{
+    padding:            0;
+    margin:             0;
+    background:         white;
+    background-size:    cover;
+    color:              black;
+    text-align:         center;
+    font-family:        'Palanquin', sans-serif;
+}
+.about_body a
+{
+    color: black;
+}
+.about_section 
+{
+    text-align: left;
+    margin-left: 5em;
+}
+
+.about_flex 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+.bloc_about
+{
+    width: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: justify;
+}
