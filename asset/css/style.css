@@ -78,6 +78,7 @@ header
     margin:             0;
     font-size:          8em;
     letter-spacing:     0.3em;
+    margin-left:        0.3em;
 }
 
 .icon_scrolldown{
