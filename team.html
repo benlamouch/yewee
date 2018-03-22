@@ -41,6 +41,42 @@
     
     <div class="site_content_contain">
 
+            <section id="about_section" class="about_section">
+                    <h2 class="section_title">À PROPOS</h2>
+                    
+                    <div class="about_flex">
+
+                        <div class="bloc_about">
+
+                            <h3>NOTRE ÉQUIPE</h3>
+                            <p>
+                                Jeunes, dynamiques et passionnés, notre pari est d'apporter à vos projets web, un esprit moderne et innovant, entièrement personnalisé et correspondant parfaitement à vos attentes. Nous sommes quatre, et notre collaboration nous permet de fonctionner en équipe ; chacun apportant son expérience et ses connaissances au profit du reste du groupe, nous nous complétons parfaitement et pouvons ainsi répondre à vos demandes en rassemblant nos compétences. 
+                            </p>
+
+                        </div>
+
+                        <div class="bloc_about">
+
+                            <h3>NOTRE PROJET</h3>
+                            <p>
+                                Nous souhaitons que l'élaboration de votre projet se déroule en toute confiance, vous promettant un accompagnement complet, permettant de répondre à vos questions à tout moment de la conception. Nous tenons également au respect de nos engagements, qu'il s'agisse du délai, des tarifs ou encore des résultats.
+                            </p>
+
+                        </div>
+
+                        <div class="bloc_about">
+
+                            <h3>NOS VALEURS</h3>
+                            <p>
+                                Compte tenu de l'actuelle importance d'internet dans l'évolution d'une entreprise, notre ambition est de participer à l'intégration et au développement de celle-ci via son site internet, son application, ou encore son affiche publicitaire. Peu importe le domaine ou la taille d'une entreprise, nous souhaitons établir avec chacune d'entre elles un projet web lui permettant d'augmenter sa visibilité et son accessibilité sur la toile. Nous construisons avec vous votre site du début à la fin, de la maquette à la mise en service de celui-ci.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
         <h1 class="section_title">EQUIPE</h1>
 
         <section class="team_section" id="team_section">
@@ -143,7 +179,14 @@
 
     <!-- Application de l'effet -->
     <script src="asset/js/fade_team.js"></script>
-        
+    <script>
+        $(document).ready(function () {
+
+            // effet fondu en entrée à l'ouverture de la page
+            $('#about_section').fadeIn(1000);
+
+        });
+    </script>
     <!-- hover bar bottom -->
     <script>$("[data-menu-underline-from-center] a").addClass("underline-from-center");</script>
 
