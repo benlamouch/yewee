@@ -50,6 +50,39 @@ header
     letter-spacing:     0.6em;
 }
 
+.hover-underline-menu 
+{
+    width:              100%;
+}
+    
+.hover-underline-menu .menu a 
+{
+    color:              #fefefe;
+    padding:            1.2rem 1.5rem;
+}
+  
+.hover-underline-menu .menu .underline-from-center 
+{
+    position:           relative;
+}
+
+.hover-underline-menu .menu .underline-from-center::after 
+{
+    content:            "";
+    position:           absolute;
+    top:                calc(100% - 0.125rem);
+    border-bottom:      0.125rem solid #fefefe;
+    left:               50%;
+    right:              50%;
+    transition:         all 0.5s ease;
+}
+
+.hover-underline-menu .menu .underline-from-center:hover::after 
+{
+    left:               0;
+    right:              0;
+    transition:         all 0.5s ease;
+}
 
 /*==================!!!!!!!!!!!!!!==================*/
 /******************* PAGE ACCUEIL *******************/
@@ -149,39 +182,6 @@ header
 {
     color:              #c9eafe;
     letter-spacing:     0.3em;
-}
-.hover-underline-menu 
-{
-    width:              100%;
-}
-    
-.hover-underline-menu .menu a 
-{
-    color:              #fefefe;
-    padding:            1.2rem 1.5rem;
-}
-  
-.hover-underline-menu .menu .underline-from-center 
-{
-    position:           relative;
-}
-
-.hover-underline-menu .menu .underline-from-center::after 
-{
-    content:            "";
-    position:           absolute;
-    top:                calc(100% - 0.125rem);
-    border-bottom:      0.125rem solid #fefefe;
-    left:               50%;
-    right:              50%;
-    transition:         all 0.5s ease;
-}
-
-.hover-underline-menu .menu .underline-from-center:hover::after 
-{
-    left:               0;
-    right:              0;
-    transition:         all 0.5s ease;
 }
 
 /******************** TEAM SECTION ********************/
@@ -365,4 +365,66 @@ footer h3
   background-color:     rgb(53, 53, 53);
   width:                70%;
   margin:               auto;  
+}
+
+/*==================!!!!!!!!!!!!!!==================*/
+/******************* PAGE CONTACT *******************/
+/*==================!!!!!!!!!!!!!!==================*/
+.contact_body
+{
+    padding:            0;
+    margin:             0;
+    color:              white;
+    text-align:         center;
+    font-family:        'lato';
+    font-weight:        100;
+    background-color: #4A4A4A;
+}
+.contact_title h1
+{
+    letter-spacing: 0.6em;
+    padding-left: 0.6em;
+    font-size: 4.9em;
+}
+.contact_title h2
+{
+    font-size: 2.8em;
+}
+.contact_mail
+{
+    margin: 4em 0;
+    font-weight: bold;
+    font-size: 3.6em;
+    background: linear-gradient(330deg, #f38bcf 0%, #7accff 25%, #f38bcf 50%, #7accff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.icon
+{
+    width: 64px;
+    height: 64px;
+}
+.icon img
+{
+    height: 100%;;
+}
+.social_container
+{
+    margin: 0 2em;
+}
+.social_content_contain
+{
+    display: flex;
+    justify-content: center;
+}
+.social_content_contain hr
+{
+    width: 200px;
+    height: 0;
+    margin: auto 2em;
+    background-color: white;
+}
+.adress_content_contain
+{
+    font-size: 2em;
 }
