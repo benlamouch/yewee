@@ -1,0 +1,183 @@
+.home_body
+{
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+}
+.site_content_contain_home
+{
+    height:             100%;
+    width:              100%;  
+    font-family:        'Lato', sans-serif;
+}
+
+#team_section, #hide_main, #about_section 
+{
+    display:            none;
+}
+
+header 
+{
+    height:             100px;
+    width:              100%;
+}
+.menu_container
+{
+    padding-top:        3em;
+    right:              0;
+    width:              40%;
+    margin:             auto 0 auto auto; 
+}
+
+.menu 
+{
+    display:            flex;
+    list-style:         none;
+    justify-content:    space-around;
+    padding:            0;
+    font-family:        helvetica;
+}
+
+.menu_item
+{
+    text-decoration:    none;
+}
+
+.hover-underline-menu 
+{
+    width:              30%;
+}
+    
+.hover-underline-menu .menu a 
+{
+    color:              black;
+    padding:            1.2rem 1.5rem;
+}
+  
+.hover-underline-menu .menu .underline-from-center 
+{
+    position:           relative;
+}
+
+.hover-underline-menu .menu .underline-from-center::after 
+{
+    content:            "";
+    position:           absolute;
+    top:                calc(100% - 0.125rem);
+    border-bottom:      0.125rem solid #fefefe;
+    left:               50%;
+    right:              50%;
+    transition:         all 0.5s ease;
+}
+
+.hover-underline-menu .menu .underline-from-center:hover::after 
+{
+    left:               0;
+    right:              0;
+    transition:         all 0.5s ease;
+}
+#current
+{
+    border-bottom: solid rgb(251, 84, 84) 1px;
+    border-bottom-width: 60%;
+}
+
+
+/********************Titres********************/
+.main_title
+{
+    font-weight: bold;
+    width: 80%;
+    margin: 8em auto 0 auto;
+    display: flex!important;
+    justify-content: space-around;
+}
+.title
+{
+    display: block;
+    letter-spacing: 0.2em;
+    font-size: 8em;
+    margin: 0;
+}
+.second_title
+{
+    width: 45%;
+}
+.second_title h2
+{
+    display: block;
+    font-size: 7em;
+    margin: 0;
+    color: rgb(251, 84, 84)
+}
+#opac
+{
+    opacity: 0.5;
+}
+
+/********************Displays********************/
+
+.displays
+{
+    position: absolute;
+    bottom: 116px;
+    display: flex;
+    align-items: baseline;
+    margin-left: 6em;
+}
+.displays div
+{
+    margin-right: 6em;
+}
+
+/********************Footer********************/
+
+.home_footer
+{
+    border-top: solid black 1px;
+    position: absolute;
+    width: 90%;
+    height: 4em;
+    margin: auto;
+    bottom: 0;
+    background-color: white;
+}
+
+/*******************=Home Page=*******************/
+/*******************1600 pixels*******************/
+/*******************===========*******************/
+
+@media(max-width : 1600px)
+{
+    .site_content_contain_home
+    {
+        width: 1440px;
+        margin: auto;
+    }
+    .main_title
+    {
+        margin-top: 3em;
+    }
+    .title
+    {
+        font-size: 6em;
+        width: 50%;
+        text-align: right;
+    }
+    .second_title h2
+    {
+        font-size: 4em;
+    }
+    .displays
+    {
+        bottom: 100px;
+    }
+    .displays img
+    {
+        width: 90%;
+    }
+    .displays div
+    {
+        margin-right:2em; 
+    }
+}
