@@ -1,0 +1,430 @@
+/*==================!!!!!!!!!!!!==================*/
+/******************* COMMUN ALL *******************/
+/*==================!!!!!!!!!!!!==================*/
+.site_content_contain_home
+{
+    height:             100vh;
+    width:              100%;  
+    color:              white;
+}
+
+#team_section, #hide_main, #about_section 
+{
+    display:            none;
+}
+
+header 
+{
+    height:             100px;
+    width:              100%;
+}
+
+/**************** menu ****************/
+
+.menu_content_contain
+{
+    display:            flex;
+    justify-content:    space-around;
+}
+
+.menu_container
+{
+    padding-top:        3em;
+    width:              100%;
+}
+
+.menu 
+{
+    display:            flex;
+    flex-direction:     row;
+    list-style:         none;
+    width:              100%;
+    justify-content:    space-around;
+    padding:            0;
+}
+
+.menu_item
+{
+    text-decoration:    none;
+    color:              white;
+    letter-spacing:     0.6em;
+}
+
+.hover-underline-menu 
+{
+    width:              100%;
+}
+    
+.hover-underline-menu .menu a 
+{
+    color:              #fefefe;
+    padding:            1.2rem 1.5rem;
+}
+  
+.hover-underline-menu .menu .underline-from-center 
+{
+    position:           relative;
+}
+
+.hover-underline-menu .menu .underline-from-center::after 
+{
+    content:            "";
+    position:           absolute;
+    top:                calc(100% - 0.125rem);
+    border-bottom:      0.125rem solid #fefefe;
+    left:               50%;
+    right:              50%;
+    transition:         all 0.5s ease;
+}
+
+.hover-underline-menu .menu .underline-from-center:hover::after 
+{
+    left:               0;
+    right:              0;
+    transition:         all 0.5s ease;
+}
+
+/*==================!!!!!!!!!!!!!!==================*/
+/******************* PAGE ACCUEIL *******************/
+/*==================!!!!!!!!!!!!!!==================*/
+
+.home_body {
+    padding:            0;
+    margin:             0;
+    background:         linear-gradient(#f2cde5, #c9eafe);
+    background-size:    cover;
+    color:              white;
+    text-align:         center;
+    font-family:        'Roboto', sans-serif;
+    font-weight:        400;
+}
+
+.main_title 
+{
+    height:             40vh;
+    margin-top:         150px;
+    font-family:        'Lato', sans-serif;
+}
+
+.main_title h1
+{
+    padding:            0;
+    margin:             0;
+    font-size:          8em;
+    letter-spacing:     0.3em;
+    margin-left:        0.3em;
+}
+
+.icon_scrolldown{
+    height:             30vh;
+    display:            flex;
+    flex-direction:     row;
+    align-items:        center;
+    justify-content:    space-around;
+}
+
+.link_project
+{
+    display:            flex;
+    flex-direction:     column;
+}
+
+.link_project h3
+{
+    letter-spacing:     0.6em;
+    margin-left:        0.6em;
+}
+
+.link_project hr
+{
+    height:             5em;
+    border :            2px solid white;
+    margin-bottom:      0;
+}
+
+
+/*==================!!!!!!!!!!!!!!!!!!!==================*/
+/******************* PAGE TEAM / ABOUT *******************/
+/*==================!!!!!!!!!!!!!!!!!!!==================*/
+
+.site_content_contain
+{
+    font-family:        helvetica;
+    margin-top:         150px;
+}
+.team_body {
+    overflow-x:         hidden;
+    padding:            0;
+    margin:             0;
+    background-size:    cover;
+    background-color:   #4A4A4A;
+    color:              white;
+    font-family:        'Roboto', sans-serif;
+}
+
+/******************** ABOUT SECTION ********************/
+
+.about_flex 
+{
+    text-align:         left;
+    width:              90%;
+    margin:             100px auto 200px auto;
+    display:            flex;
+    justify-content:    space-between;
+}
+.bloc_about
+{
+    width:              30%;
+    padding:            1em;
+}
+
+.bloc_about h3
+{
+    color:              #c9eafe;
+    letter-spacing:     0.3em;
+}
+
+/******************** TEAM SECTION ********************/
+
+
+.section_title
+{
+    letter-spacing:     0.5em;
+    width:              90%;
+    margin:             auto;
+    font-weight:        bold;
+}
+.team_content_contain
+{
+    height:             730px;
+    margin-top:         100px;
+    min-height:         700px;
+}
+.back_title
+{
+    font-weight:        bold;
+    font-size:          15.6em;
+    line-height:        1.2em;
+    color:              rgba(255, 255, 255, 0.1);
+    margin-left:        -10%;
+    letter-spacing:     0.3em;
+    display:            block;
+    overflow:           hidden;
+    width:              1700px;
+
+}
+.team_container
+{
+    top:                -90%;
+    position:           relative;
+    width:              70%;
+    margin:             auto;
+    display:            flex;
+}
+.team_image
+{
+    background-color:   white;
+    opacity:            0.7;
+    width:              345px;
+    height:             345px;
+    min-width:          345px;
+    margin-right:       4em;
+    overflow:           hidden;
+}
+.team_image img
+{
+    width:              100%;
+    height:             auto;
+}
+.team_info
+{
+    display:            flex;
+    flex-direction:     column;
+    font-size:          18px;
+    font-weight:        100;
+    line-height:        1.5em;
+    padding-bottom:     3em;
+}
+.team_info h3
+{
+    letter-spacing:     0.5em;
+    font-size:          36px;
+    margin-top:         0;
+    margin-bottom:      80px;
+    line-height:        1.2em;
+}
+/*==================!!!!!!!!!!!!!!==================*/
+/******************* PAGE PROJECT *******************/
+/*==================!!!!!!!!!!!!!!==================*/
+
+.project_body
+{
+    overflow-x:         hidden;
+    padding:            0;
+    margin:             0;
+    background-size:    cover;
+    background-color:   #4A4A4A;
+    color:              white;
+    font-family:        'Roboto', sans-serif;
+}
+.project_hero
+{
+    height:             100vh;
+    text-align:         center;
+    width:              100%;
+    margin-top:         -100px;
+}
+.project_hero h1
+{
+    font-size:          84px;
+}
+.title_hero
+{
+    padding-top:        15%;
+}
+.project
+{
+    height:             730px;
+    margin-top:         100px;
+    min-height:         700px;
+}
+.back_title_project
+{
+    font-weight:        bold;
+    font-size:          15.6em;
+    line-height:        1.2em;
+    color:              rgba(255, 255, 255, 0.1);
+    letter-spacing:     0.3em;
+    margin-left:        0.3em;
+    text-align:         center;
+}
+.project_image
+{
+    width:              700px;
+    height:             500px;
+}
+.project_image img
+{
+    opacity:            0.7;
+}
+.project_content
+{
+    top:                -80%;
+    width:              70%;
+    position:           relative;
+    margin:             auto;
+    display:            flex;
+    justify-content:    space-between;
+}
+.project_content_icon
+{
+    top:                -60%;
+    position:           relative;
+    width:              70%;
+    margin:             auto;
+    display:            flex;
+    justify-content:    space-around;
+}
+.icon_project
+{
+    height:             96px;
+}
+.icon_container
+{
+    width:              96px;
+    text-align:         center;
+
+    line-height:        2em;
+}
+.project_info
+{
+    width:              500px;
+}
+.project_info h3
+{
+    font-size:          36px;
+    margin-top:         0;
+    letter-spacing:     0.3em;
+}
+.project_info p
+{
+    font-size:          1.5em;
+    line-height:        2em;
+}
+footer
+{
+    height:             100px;
+}
+footer h3
+{
+    width:              100%;
+    text-align:         center;
+}
+.streamquest_footer
+{
+  background-color:     rgb(53, 53, 53);
+  width:                70%;
+  margin:               auto;  
+}
+
+/*==================!!!!!!!!!!!!!!==================*/
+/******************* PAGE CONTACT *******************/
+/*==================!!!!!!!!!!!!!!==================*/
+.contact_body
+{
+    padding:            0;
+    margin:             0;
+    color:              white;
+    text-align:         center;
+    font-family:        'lato';
+    font-weight:        100;
+    background-color: #4A4A4A;
+}
+.contact_title h1
+{
+    letter-spacing: 0.6em;
+    padding-left: 0.6em;
+    font-size: 4.9em;
+}
+.contact_title h2
+{
+    font-size: 2.8em;
+}
+.contact_mail
+{
+    margin: 4em 0;
+    font-weight: bold;
+    font-size: 3.6em;
+    background: linear-gradient(330deg, #f38bcf 0%, #7accff 25%, #f38bcf 50%, #7accff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.icon
+{
+    width: 64px;
+    height: 64px;
+}
+.icon img
+{
+    height: 100%;;
+}
+.social_container
+{
+    margin: 0 2em;
+}
+.social_content_contain
+{
+    display: flex;
+    justify-content: center;
+}
+.social_content_contain hr
+{
+    width: 200px;
+    height: 0;
+    margin: auto 2em;
+    background-color: white;
+}
+.adress_content_contain
+{
+    font-size: 2em;
+}
