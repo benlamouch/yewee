@@ -3,6 +3,7 @@
     overflow:           hidden;
     margin:             0;
     height:             100vh;
+    display: none;
 }
 
 /********** scroll bar **********/
@@ -36,7 +37,7 @@
     font-family:        'Lato', sans-serif;
 }
 
-#team_section, #hide_main, #about_section 
+#team_section, #project_page, #about_section 
 {
     display:            none;
 }
