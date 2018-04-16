@@ -8,23 +8,23 @@
 /********** scroll bar **********/
 /* width */
 ::-webkit-scrollbar {
-    width: 8px;
+    width:              8px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: inherit;
+    background:         inherit;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #888; 
-    border-radius: 4px;
+    background:         #888; 
+    border-radius:      4px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background:         #555; 
 }
 
 /********** scroll bar **********/
@@ -189,79 +189,79 @@ a:active
 {
     .site_content_contain_home
     {
-        max-width:      1440px;
-        margin:         auto;
+        max-width:          1440px;
+        margin:             auto;
     }
     .main_title
     {
-        margin-top:     3em;
+        margin-top:         3em;
     }
     .title
     {
-        font-size:      6em;
-        width:          50%;
-        text-align:     right;
+        font-size:          6em;
+        width:              50%;
+        text-align:         right;
     }
     .second_title
     {
-        margin-top: 2em;
+        margin-top:         2em;
     }
     .second_title h2
     {
-        font-size:      4em;
+        font-size:          4em;
     }
     .displays
     {
-        bottom:         100px;
+        bottom:             100px;
     }
     .displays img
     {
-        width:          90%;
+        width:              90%;
     }
     .displays div
     {
-        margin-right:   2em; 
+        margin-right:       2em; 
     }
 }
 @media(max-width : 800px)
 {
     .hover-underline-menu 
     {
-        width:          100%;
-        margin:         auto;
+        width:              100%;
+        margin:             auto;
     }
     .menu_container
     {
-        padding-top: 1em;
+        padding-top:        1em;
     }
     .main_title
     {
-        flex-direction: column;
-        margin:         auto;
+        flex-direction:     column;
+        margin:             auto;
     }
     .main_title h1
     {
-        width:          100%;
-        text-align:     left;
-        font-size:      4em;
+        width:              100%;
+        text-align:         left;
+        font-size:          4em;
     }
     .second_title
     {
-        width: 100%;
+        width:              100%;
     }
     .second_title h2
     {
-        font-size:      2em;
+        font-size:          2em;
     }
     .displays
     {
-        z-index:        -1;
-        bottom: 1.2em;
-        margin-left: 2em;
+        z-index:            -1;
+        bottom:             1.2em;
+        margin-left:        2em;
     }
     .home_footer
     {
-        height:         1em;
+        height:             1em;
     }
 
 }
@@ -312,22 +312,22 @@ a:active
 }
 .contact
 {
-    margin-right: 3em;
-    padding:0;
-    height: 100%;
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    margin-right:       3em;
+    padding:            0;
+    height:             100%;
+    list-style-type:    none;
+    display:            flex;
+    flex-direction:     column;
+    justify-content:    space-around;
 }
 .icon_about_container
 {
-    width: 32px;
-    height: auto;
+    width:              32px;
+    height:             auto;
 }
 .icon_about_container img
 {
-    width: 100%;
+    width:              100%;
 }
 
 /******************** TEAM SECTION ********************/
@@ -404,7 +404,7 @@ a:active
 {
     .site_content_contain_about
     {
-        max-width: 1440px;
+        max-width:          1440px;
     }
 
 
@@ -415,51 +415,51 @@ a:active
 {
     .about_section
     {
-        margin-top: 50px;
+        margin-top:         50px;
 
     }
     .back_title
     {
-        display: none;
+        display:            none;
     }
     .about_flex
     {
-        flex-direction: column-reverse;
-        margin-bottom: 100px;
+        flex-direction:     column-reverse;
+        margin-bottom:      100px;
     }
     .contact
     {
-        flex-direction: row;
-        margin: 0;
+        flex-direction:     row;
+        margin:             0;
     }
     .team_info h3
     {
-        letter-spacing: 0.3em;
-        margin-bottom: auto;
-        font-size: 1.5em;
-        text-align: center;
+        letter-spacing:     0.3em;
+        margin-bottom:      auto;
+        font-size:          1.5em;
+        text-align:         center;
     }
     .bloc_about
     {
-        width: 100%;
+        width:              100%;
     }
     .team_content_contain
     {
-        height: auto;;
+        height:             auto;;
     }
     .team_container
     {
-        flex-direction: column;
-        top: 0;
-        width: 90%;
+        flex-direction:     column;
+        top:                0;
+        width:              90%;
     }
     .team_image
     {
-        margin: auto;
-        width: 95%;
-        min-width: 0;
-        max-width: 345px;
-        height: auto;;
+        margin:             auto;
+        width:              95%;
+        min-width:          0;
+        max-width:          345px;
+        height:             auto;;
     }
 }
 
@@ -581,54 +581,54 @@ footer h3
 {
     .project_image img
     {
-        width: 90%;
-        height: auto;
+        width:              90%;
+        height:             auto;
     }
 }
 @media(max-width : 800px)
 {
     .title_hero
     {
-        padding-top: 25%;
+        padding-top:        25%;
     }   
     .project_hero h1
     {
-        font-size: 2em;
+        font-size:          2em;
     }
     .project_hero h2
     {
-        font-size: 1.3em;
+        font-size:          1.3em;
     }
     .back_title_project
     {
-        display: none;
+        display:            none;
     }
     .project_content_icon
     {
-        flex-wrap: wrap;
+        flex-wrap:          wrap;
     }
     .project
     {
-        height: auto;   
+        height:             auto;   
     }
     .project_content
     {
-        flex-direction: column;
-        width: auto;
-        padding: 1em;
+        flex-direction:     column;
+        width:              auto;
+        padding:            1em;
     }
     .project_image img
     {
-        width: 100%;
+        width:              100%;
     }
     .project_image
     {
-        width: auto;
-        height: auto;
+        width:              auto;
+        height:             auto;
     }
     .project_info
     {
-        width: auto;
-        font-size: inherit;
+        width:              auto;
+        font-size:          inherit;
     }
 }
