@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
+    <script src="asset/js/jquery-3.3.1.min.js"></script>
+    <script src="asset/js/jquery.paroller.min.js"></script>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
@@ -180,7 +182,23 @@
         </section>
     </div>
     <!-- Appelle du script de base jQuery -->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".back_title,[data-paroller-factor]").paroller(
+                {
+                    factor:-0.05,
+                    type:'foreground',
+                }
+            );
+            $(".team_container,[data-paroller-factor]").paroller(
+                {
+                    factor:0.05,
+                    type:'foreground',
+                    direction:'horizontal',
+                }
+            );
+        });
+    </script>
     
 
     <!-- Application de l'effet -->
