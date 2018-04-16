@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
     <link rel="stylesheet" href="asset/css/test.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
@@ -12,20 +14,20 @@
 </head>
 <body class="project_body">
     <header>
-        <nav class="menu_container hover-underline-menu" hover-underline-menu>
+        <nav class="menu_container hover-underline-menu" data-menu-underline-from-center>
             
             <ul class="menu align-center">
 
                 <li class="menu_item_content">
-                    <a class="menu_item" href="homepage.html">Accueil</a>
+                    <a class="menu_item anime" href="homepage.html">Accueil</a>
                 </li>
 
                 <li class="menu_item_content">
-                    <a class="menu_item" href="about_test.html">A Propos</a>
+                    <a class="menu_item anime" href="about.html">A Propos</a>
                 </li>
 
                 <li class="menu_item_content">
-                    <a class="menu_item" href="#"id="current">Travaux</a>
+                    <a class="menu_item" id="current" href="#">Travaux</a>
                 </li>
 
             </ul>
@@ -126,16 +128,21 @@
         <hr>
     </footer>
 
-
-
     <!-- Appelle du script de base jQuery -->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        
 
     <!-- Application de l'effet -->
     <script src="asset/js/fade_project.js"></script>
+    <script>
+        $(document).ready(function () {
 
+            // effet fondu en entrée à l'ouverture de la page
+            $('#project_page').fadeIn(1000);
+
+        });
+    </script>
     <!-- hover bar bottom -->
-    <script>$("[data-menu-underline-from-center] a").addClass("underline-from-center");</script>
-    
+    <script>$("[data-menu-underline-from-center] .anime").addClass("underline-from-center");</script>
+
 </body>
 </html>

@@ -4,6 +4,7 @@
     margin:             0;
     height:             100vh;
 }
+
 /********** scroll bar **********/
 /* width */
 ::-webkit-scrollbar {
@@ -52,7 +53,15 @@ header
     width:              40%;
     margin:             auto 0 auto auto; 
 }
-
+a:active
+{
+    background-color: white;
+}
+.menu_item_content
+{
+    width:              30%;
+    text-align:         center;
+}
 .menu 
 {
     display:            flex;
@@ -60,11 +69,16 @@ header
     justify-content:    space-around;
     padding:            0;
     font-family:        helvetica;
+    margin:             0;
+    height:             48px;
 }
 
 .menu_item
 {
     text-decoration:    none;
+    display:            block;
+    line-height:        48px;
+
 }
 
 .hover-underline-menu 
@@ -75,7 +89,6 @@ header
 .hover-underline-menu .menu a 
 {
     color:              black;
-    padding:            1.2rem 1.5rem;
 }
   
 .hover-underline-menu .menu .underline-from-center 
@@ -115,6 +128,7 @@ header
     margin:             8em auto 0 auto;
     display:            flex!important;
     justify-content:    space-around;
+    flex-wrap: wrap;
 }
 .title
 {
@@ -209,12 +223,16 @@ header
         margin-right:   2em; 
     }
 }
-@media(max-device-width : 800px)
+@media(max-width : 800px)
 {
     .hover-underline-menu 
     {
-        width:          60%;
+        width:          100%;
         margin:         auto;
+    }
+    .menu_container
+    {
+        padding-top: 1em;
     }
     .main_title
     {
@@ -225,12 +243,29 @@ header
     {
         width:          100%;
         text-align:     left;
+        font-size:      4em;
+    }
+    .second_title
+    {
+        width: 100%;
+    }
+    .second_title h2
+    {
+        font-size:      2em;
     }
     .displays
     {
         z-index:        -1;
+        bottom: 1.2em;
+        margin-left: 2em;
     }
-    
+    .home_footer
+    {
+        height:         1em;
+    }
+    .displays
+    {
+    }
 
 
 }
@@ -380,6 +415,58 @@ header
     /******************** ABOUT SECTION ********************/
     
 }
+@media(max-width : 800px)
+{
+    .about_section
+    {
+        margin-top: 50px;
+
+    }
+    .back_title
+    {
+        display: none;
+    }
+    .about_flex
+    {
+        flex-direction: column-reverse;
+        margin-bottom: 100px;
+    }
+    .contact
+    {
+        flex-direction: row;
+        margin: 0;
+    }
+    .team_info h3
+    {
+        letter-spacing: 0.3em;
+        margin-bottom: auto;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .bloc_about
+    {
+        width: 100%;
+    }
+    .team_content_contain
+    {
+        height: auto;;
+    }
+    .team_container
+    {
+        flex-direction: column;
+        top: 0;
+        width: 90%;
+    }
+    .team_image
+    {
+        margin: auto;
+        width: 95%;
+        min-width: 0;
+        max-width: 345px;
+        height: auto;;
+    }
+}
+
     /*==================!!!!!!!!!!!!!!==================*/
     /******************* PAGE PROJECT *******************/
     /*==================!!!!!!!!!!!!!!==================*/
@@ -500,5 +587,52 @@ footer h3
     {
         width: 90%;
         height: auto;
+    }
+}
+@media(max-width : 800px)
+{
+    .title_hero
+    {
+        padding-top: 25%;
+    }   
+    .project_hero h1
+    {
+        font-size: 2em;
+    }
+    .project_hero h2
+    {
+        font-size: 1.3em;
+    }
+    .back_title_project
+    {
+        display: none;
+    }
+    .project_content_icon
+    {
+        flex-wrap: wrap;
+    }
+    .project
+    {
+        height: auto;   
+    }
+    .project_content
+    {
+        flex-direction: column;
+        width: auto;
+        padding: 1em;
+    }
+    .project_image img
+    {
+        width: 100%;
+    }
+    .project_image
+    {
+        width: auto;
+        height: auto;
+    }
+    .project_info
+    {
+        width: auto;
+        font-size: inherit;
     }
 }

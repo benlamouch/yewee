@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">  
     <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
     <link rel="stylesheet" href="asset/css/animate.css">  
+    <link rel="stylesheet" href="asset/css/rippler.min.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bienvenue chez YEWEE</title>
 </head>
@@ -27,11 +28,11 @@
                     </li>
 
                     <li class="menu_item_content">
-                        <a class="menu_item anime" href="about_test.html">A Propos</a>
+                        <a class="menu_item anime rippler rippler-bs-danger" href="about.html">A Propos</a>
                     </li>
 
                     <li class="menu_item_content">
-                        <a class="menu_item anime" href="projet_test.html">Travaux</a>
+                        <a class="menu_item anime rippler rippler-bs-danger" href="projet.html">Travaux</a>
                     </li>
 
                 </ul>
@@ -68,6 +69,19 @@
 
     <!-- hover bar bottom -->
     <script>$("[data-menu-underline-from-center] .anime").addClass("underline-from-center");</script>
+    <script url="http//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <!-- rippler js -->
+    <script src="asset//js/jquery.rippler.min.js"></script>
+    <script>
+    $(document).ready(function() {
+  $(".rippler").rippler({
+    effectClass      :  'rippler-effect'
+    ,effectSize      :  16      // Default size (width & height)
+    ,addElement      :  'div'   // e.g. 'svg'(feature)
+    ,duration        :  400
+  });
+});</script>
 </body>
 
 </html>
