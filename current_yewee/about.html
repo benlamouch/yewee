@@ -184,17 +184,12 @@
     <!-- Appelle du script de base jQuery -->
     <script>
         $(document).ready(function() {
+            
             $(".back_title,[data-paroller-factor]").paroller(
                 {
-                    factor:-0.05,
-                    type:'foreground',
-                }
-            );
-            $(".team_container,[data-paroller-factor]").paroller(
-                {
-                    factor:0.05,
-                    type:'foreground',
+                    factor:0.1,
                     direction:'horizontal',
+                    type:'foreground',
                 }
             );
         });
