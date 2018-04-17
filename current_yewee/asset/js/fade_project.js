@@ -7,7 +7,7 @@ $(document).ready(function () {
     $("#streamer").hide();
     $("#live").hide();
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 50) {
+        if ($(this).scrollTop() > 20) {
             $('#ico').fadeIn(1500);
         } else {
             $('#ico').fadeOut(100);
