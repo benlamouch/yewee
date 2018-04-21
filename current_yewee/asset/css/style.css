@@ -52,10 +52,7 @@ header
     width:              40%;
     margin:             auto 0 auto auto; 
 }
-a:active
-{
-    background-color: white;
-}
+
 .menu_item_content
 {
     width:              30%;
@@ -191,13 +188,76 @@ a:active
     margin: auto 5%;
     background-color: white;
     height: 200px;
+    font-size: 1.3em;
 }
+.home_footer img
+{
+    margin-right: 2em;
+}
+.home_footer h2
+{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.home_footer ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.home_footer a
+{
+    text-decoration: none;
+    color: black;
+}
+.home_footer a:hover
+{
+    text-decoration: underline;
+}
+.home_footer li
+{
+    margin-bottom: 1em;
+}
+
 .copiright , .personal_links , .social_links
 {
     display: flex;
     flex-direction: column;
-    align-self: baseline;
+    align-self: top;
 }
+.icon_about_footer
+{
+    height: 32px;
+    display: flex;
+    align-items: baseline;
+}
+.icon_about_footer img
+{
+    height: 100%;
+}
+.copiright
+{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.copiright_content_links
+{
+    display: flex;
+    align-self: center;
+}
+.copiright h4
+{
+    font-weight: inherit;
+    margin: 0;
+    line-height: 1.4em;
+}
+.copiright p
+{
+    font-size: 0.5em;
+}
+
 .copiright_container_links
 {
     padding: 0;
@@ -205,7 +265,7 @@ a:active
 .copiright_content_links
 {
     list-style-type: none;
-    font-size: 1.1em;
+
 }
 .copiright_links
 {
@@ -219,25 +279,17 @@ a:active
 .link_content
 {
     list-style-type: none;
-    font-size: 1.1em;
     line-height: 1.2em;
 }
-.link
+
+
+
+.follow_container_link img
 {
-    text-decoration: none;
-    color: black;
+    width: 32px;
+    height: auto;
 }
-.link:hover , .copiright_links:hover
-{
-    text-decoration: underline;
-}
-.contact_footer
-{
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-}
+
 /*******************=Home Page=*******************/
 /*******************1600 pixels*******************/
 /*******************===========*******************/
@@ -417,7 +469,23 @@ a:active
     letter-spacing:     0.3em;
     display:            block;
     width:              1700px;
-
+    position: relative;
+}
+#fisrt_back
+{
+    top: 720px;
+}
+#second_back
+{
+    top: 1210px;
+}
+#third_back
+{
+    top:1654px;
+}
+#last_back
+{
+    top: 2084px;
 }
 .team_container
 {
