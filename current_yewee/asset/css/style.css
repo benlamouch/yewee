@@ -170,9 +170,9 @@ header
 
 .home_base_line
 {
-    border-top:         solid black 1px;
+    border-bottom:      solid black 1px;
     width:              90%;
-    height:             4em;
+    height:             3em;
     margin:             auto 5%;
     bottom:             0;
     background-color:   white;
