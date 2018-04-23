@@ -188,6 +188,7 @@ header
     width: 90%;
     margin: auto 5%;
     background-color: white;
+    font-weight: lighter;
     height: 200px;
     font-size: 1.3em;
 }
@@ -197,6 +198,7 @@ header
 }
 .desktop_footer h2
 {
+    font-weight:400;
     margin-top: 60px;
     margin-bottom: 40px;
 }
