@@ -159,8 +159,13 @@ header
     align-items:        baseline;
     margin-left:        6em;
     z-index:            -1;
+<<<<<<< HEAD
     overflow:           hidden;   
 
+=======
+    overflow:           hidden;
+    padding-bottom:     2em;
+>>>>>>> 4eeae8d450f57eff5b88a86970abe1a9c2af6999
 
 }
 .displays div
@@ -172,17 +177,21 @@ header
 
 .home_base_line
 {
-    border-bottom:      solid black 1px;
+    border-top:         solid black 1px;
     width:              90%;
     height:             0em;
     margin:             auto 5%;
     bottom:             0;
     background-color:   white;
+<<<<<<< HEAD
     z-index: 0;
+=======
+    z-index:            2;
+>>>>>>> 4eeae8d450f57eff5b88a86970abe1a9c2af6999
 }
 .desktop_footer
 {
-    bottom: -200px;
+    bottom:             -200px;
     display: flex;
     justify-content: space-between;
     align-self: center;
@@ -293,9 +302,6 @@ header
     list-style-type: none;
     line-height: 1.2em;
 }
-
-
-
 .follow_container_link img
 {
     width: 32px;
