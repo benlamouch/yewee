@@ -157,9 +157,9 @@ header
     display:            flex;
     align-items:        baseline;
     margin-left:        6em;
-    z-index: -1;
-    overflow: hidden;
-    padding-bottom: 2em;
+    z-index:            -1;
+    overflow:           hidden;
+    padding-bottom:     2em;
 
 }
 .displays div
@@ -171,7 +171,7 @@ header
 
 .home_base_line
 {
-    border-top:      solid black 1px;
+    border-top:         solid black 1px;
     width:              90%;
     height:             3em;
     margin:             auto 5%;
@@ -181,7 +181,7 @@ header
 }
 .desktop_footer
 {
-    bottom: -200px;
+    bottom:             -200px;
     display: flex;
     justify-content: space-between;
     align-self: center;
