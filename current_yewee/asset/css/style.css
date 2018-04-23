@@ -27,11 +27,11 @@
     background:         #555; 
 }
 
-/********** scroll bar **********/
+/********** scroll bar end **********/
 
 .site_content_contain_home
 {
-    height:             100vh;
+    /* height:             80vh; */
     width:              100%;  
 }
 
@@ -112,7 +112,7 @@ header
 #current
 {
     border-bottom:      solid rgb(251, 84, 84) 0.125rem;
-    border-bottom-width: 60%;
+    height:             95%;
 }
 
 
@@ -130,7 +130,7 @@ header
 {
     display:            block;
     letter-spacing:     0.2em;
-    font-size:          8em;
+    font-size:          7vw;
     margin:             0;
 }
 .second_title
@@ -140,7 +140,7 @@ header
 .second_title h2
 {
     display:            block;
-    font-size:          7em;
+    font-size:          6vw;
     margin:             0;
     color:              rgb(251, 84, 84);
 }
@@ -153,11 +153,13 @@ header
 
 .displays
 {
-    position:           absolute;
-    bottom:             116px;
+    margin-top:         -164px;
     display:            flex;
     align-items:        baseline;
     margin-left:        6em;
+    z-index: -1;
+    overflow: hidden;
+
 }
 .displays div
 {
@@ -169,17 +171,16 @@ header
 .home_base_line
 {
     border-top:         solid black 1px;
-    position:           absolute;
     width:              90%;
     height:             4em;
     margin:             auto 5%;
     bottom:             0;
     background-color:   white;
+    z-index: 2;
 }
-.home_footer
+.desktop_footer
 {
     font-family: helvetica;
-    position: absolute;
     bottom: -200px;
     display: flex;
     justify-content: space-between;
@@ -190,31 +191,31 @@ header
     height: 200px;
     font-size: 1.3em;
 }
-.home_footer img
+.desktop_footer img
 {
     margin-right: 2em;
 }
-.home_footer h2
+.desktop_footer h2
 {
     margin-top: 60px;
     margin-bottom: 40px;
 }
-.home_footer ul
+.desktop_footer ul
 {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
-.home_footer a
+.desktop_footer a
 {
     text-decoration: none;
     color: black;
 }
-.home_footer a:hover
+.desktop_footer a:hover
 {
     text-decoration: underline;
 }
-.home_footer li
+.desktop_footer li
 {
     margin-bottom: 1em;
 }
@@ -289,6 +290,10 @@ header
     width: 32px;
     height: auto;
 }
+.mobile_footer
+{
+    display: none;
+}
 
 /*******************=Home Page=*******************/
 /*******************1600 pixels*******************/
@@ -300,6 +305,7 @@ header
     {
         max-width:          1440px;
         margin:             auto;
+        min-height: 600px;
     }
     .main_title
     {
@@ -307,7 +313,7 @@ header
     }
     .title
     {
-        font-size:          6em;
+        font-size:          7vw;
         width:              50%;
         text-align:         right;
     }
@@ -317,11 +323,11 @@ header
     }
     .second_title h2
     {
-        font-size:          4em;
+        font-size:          6vw;
     }
     .displays
     {
-        bottom:             100px;
+        margin-top: -15%;    
     }
     .displays img
     {
@@ -334,6 +340,18 @@ header
 }
 @media(max-width : 800px)
 {
+    .home_base_line
+    {
+        position:           initial;
+    }
+    .displays
+    {
+        position:           initial;
+        display:            flex;
+        justify-content:    space-around;
+        align-items:        baseline;
+        margin-top: 0;
+    }
     .hover-underline-menu 
     {
         width:              100%;
@@ -346,13 +364,13 @@ header
     .main_title
     {
         flex-direction:     column;
-        margin:             auto;
+        margin:             0 auto 2em auto;
     }
     .main_title h1
     {
         width:              100%;
         text-align:         left;
-        font-size:          4em;
+        font-size:          18vw;
     }
     .second_title
     {
@@ -360,7 +378,7 @@ header
     }
     .second_title h2
     {
-        font-size:          2em;
+        font-size:          10vw;
     }
     .displays
     {
@@ -372,11 +390,33 @@ header
     {
         height:             1em;
     }
-    .contact_footer
+    .desktop_footer
     {
-        flex-direction: column;
+        display:            none;
+    }
+    .mobile_footer
+    {
+        display:            block;
+    }    
+    .follow_container_mobile
+    {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 0;
+        width: 70%;
     }
 
+    .icon_about_footer_mobile
+    {
+        list-style-type: none;
+        width: 32px;
+    }
+    .icon_about_footer_mobile img
+    {
+        width: 100%;
+        height: auto;
+    }
 }
 /***************!!!!! TEAM PAGE !!!!!***************/
 /******************** TEAM PAGE ********************/
