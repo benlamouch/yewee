@@ -176,7 +176,7 @@ header
     margin:             auto 5%;
     bottom:             0;
     background-color:   white;
-    z-index: 2;
+    z-index:            2;
 }
 .desktop_footer
 {
