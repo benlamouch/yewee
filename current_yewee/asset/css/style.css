@@ -159,13 +159,8 @@ header
     align-items:        baseline;
     margin-left:        6em;
     z-index:            -1;
-<<<<<<< HEAD
-    overflow:           hidden;   
-
-=======
     overflow:           hidden;
     padding-bottom:     2em;
->>>>>>> 4eeae8d450f57eff5b88a86970abe1a9c2af6999
 
 }
 .displays div
@@ -183,11 +178,7 @@ header
     margin:             auto 5%;
     bottom:             0;
     background-color:   white;
-<<<<<<< HEAD
-    z-index: 0;
-=======
     z-index:            2;
->>>>>>> 4eeae8d450f57eff5b88a86970abe1a9c2af6999
 }
 .desktop_footer
 {
@@ -341,7 +332,8 @@ header
     }
     .displays
     {
-        margin-top: -15%;    
+        margin-top: -15%; 
+        padding-bottom: 5em;   
     }
     .displays img
     {
