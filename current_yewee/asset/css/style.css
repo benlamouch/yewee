@@ -159,6 +159,7 @@ header
     margin-left:        6em;
     z-index: -1;
     overflow: hidden;
+    padding-bottom: 2em;
 
 }
 .displays div
@@ -170,7 +171,7 @@ header
 
 .home_base_line
 {
-    border-bottom:      solid black 1px;
+    border-top:      solid black 1px;
     width:              90%;
     height:             3em;
     margin:             auto 5%;
@@ -290,9 +291,6 @@ header
     list-style-type: none;
     line-height: 1.2em;
 }
-
-
-
 .follow_container_link img
 {
     width: 32px;
