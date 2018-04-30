@@ -153,6 +153,7 @@ header
 .displays
 {
     margin-top:         -164px;
+    padding-bottom:     6em;
     display:            flex;
     align-items:        baseline;
     margin-left:        6em;
@@ -172,7 +173,7 @@ header
 {
     border-top:         solid black 1px;
     width:              90%;
-    height:             3em;
+    height:             0em;
     margin:             auto 5%;
     bottom:             0;
     background-color:   white;
@@ -333,7 +334,8 @@ footer
     }
     .displays
     {
-        margin-top: -15%;    
+        margin-top: -15%; 
+        padding-bottom: 5em;   
     }
     .displays img
     {
