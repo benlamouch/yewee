@@ -8,6 +8,7 @@ $(document).ready(function () {
     $("#live").hide();
     $(window).scroll(function () {
         if ($(this).scrollTop() > 20) {
+            console.log('call');
             $('#ico').fadeIn(1500);
         } else {
             $('#ico').fadeOut(100);

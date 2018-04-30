@@ -74,7 +74,6 @@ header
     text-decoration:    none;
     display:            block;
     line-height:        48px;
-
 }
 
 .hover-underline-menu 
@@ -179,18 +178,22 @@ header
     background-color:   white;
     z-index:            2;
 }
+footer
+{
+    font-family:        'Lato', sans-serif;
+}
 .desktop_footer
 {
     bottom:             -200px;
-    display: flex;
-    justify-content: space-between;
-    align-self: center;
-    width: 90%;
-    margin: auto 5%;
-    background-color: white;
-    height: 200px;
-    font-size: 1.3em;
-    font-weight: bolder;
+    display:            flex;
+    justify-content:    space-between;
+    align-self:         center;
+    width:              90%;
+    margin:             auto 5%;
+    background-color:   white;
+    height:             200px;
+    font-size:          1.3em;
+    font-weight:        bolder;
 
 }
 .desktop_footer img
