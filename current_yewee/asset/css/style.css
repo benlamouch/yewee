@@ -35,7 +35,7 @@
     width:              100%;  
 }
 
-#team_section, #project_page, #about_section 
+#team_section, #project_page, #about_section, #about_footer
 {
     display:            none;
 }
@@ -517,23 +517,24 @@ footer
     letter-spacing:     0.3em;
     display:            block;
     width:              1700px;
-    position: relative;
+    position:           relative;
+    cursor:             default;
 }
 #fisrt_back
 {
-    top: 720px;
+    top:                720px;
 }
 #second_back
 {
-    top: 1210px;
+    top:                1210px;
 }
 #third_back
 {
-    top:1654px;
+    top:                1654px;
 }
 #last_back
 {
-    top: 2084px;
+    top:                2084px;
 }
 .team_container
 {
@@ -808,3 +809,26 @@ footer h3
         font-size:          inherit;
     }
 }
+.site_content_contain_progress
+{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    padding-top: 20vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.progress_back
+{
+    margin-top: 2em;
+
+}
+.progress_back a
+{
+    text-decoration: none;
+    color: black;
+}
+.progress_back a:hover
+{
+    text-decoration: underline;
+}
+

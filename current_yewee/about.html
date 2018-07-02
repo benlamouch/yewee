@@ -47,25 +47,35 @@
             <div class="about_flex">
                 <div class="contact_container">
                     <ul class="contact">
+                    
                         <li class="icon_about_container">
-                            <a href="www.twitter.com" class="icon">
-                                <img src="asset/images/social_icon/twitter_icon.png" alt="">
+                            <a href="mailto:contact@yewee.fr" class="icon">
+                                <img src="asset/images/social_icon/atmail_icon.png" alt="">
                             </a>
                         </li>
+        
                         <li class="icon_about_container">
-                            <a href="www.facebook.com" class="icon">
+                            <a href="tel:+33787088966" class="icon">
+                                <img src="asset/images/social_icon/tel_icon.png" alt="">
+                            </a>
+                        </li>
+
+                        <li class="icon_about_container">
+                            <a href="https://www.facebook.com/YeweeAgenceWeb/" target="_blank" class="icon">
                                 <img src="asset/images/social_icon/facebook_icon.png" alt="">
                             </a>
                         </li>
+
                         <li class="icon_about_container">
-                            <a href="https://www.facebook.com/YeweeAgenceWeb" target="_blank" class="icon"><img src="asset/images/social_icon/facebook_icon.png" alt=""></a>
-                        </li>
-                        <li class="icon_about_container">
-                            <a href="" target="_blank" class="icon"><img src="asset/images/social_icon/instagram_icon.png" alt=""></a>
+                            <a href="" target="_blank" class="icon">
+                                <img src="asset/images/social_icon/instagram_icon.png" alt="">
+                            </a>
                         </li>
     
                         <li class="icon_about_container">
-                            <a href="" target="_blank" class="icon"><img src="asset/images/social_icon/dribbble_icon.png" alt=""></a>
+                            <a href="" target="_blank" class="icon">
+                                <img src="asset/images/social_icon/dribbble_icon.png" alt="">
+                            </a>
                         </li>
 
                     </ul>
@@ -214,7 +224,7 @@
 
             </div>
         </section>
-        <footer>
+        <footer id="about_footer" >
             <div class="desktop_footer">
                 <div class="social_links">
                     <h2>Contact</h2>
@@ -236,7 +246,7 @@
                     <ul class="follow_container">
 
                         <li class="follow_container_link">
-                            <img src="asset/images/social_icon/facebook_icon.png" alt=""><a href="">Facebook</a>
+                            <img src="asset/images/social_icon/facebook_icon.png" alt=""><a href="https://www.facebook.com/YeweeAgenceWeb/">Facebook</a>
                         </li>
 
                         <li class="follow_container_link">
@@ -295,7 +305,7 @@
                     </li>
 
                     <li class="icon_about_footer_mobile">
-                        <a href=""></a><img src="asset/images/social_icon/facebook_icon.png" alt=""></a>
+                        <a href="https://www.facebook.com/YeweeAgenceWeb/"></a><img src="asset/images/social_icon/facebook_icon.png" alt=""></a>
                     </li>
 
                     <li class="icon_about_footer_mobile">
@@ -312,7 +322,8 @@
             </div>
         </footer>
     </div>
-    <!-- Appelle du script de base jQuery -->
+
+    <!-- Script parrallaxe -->
     <script>
         $(document).ready(function () {
 
@@ -326,16 +337,17 @@
 
 
     <!-- Application de l'effet -->
+
     <script src="asset/js/fade_team.js"></script>
+
     <script>
         $(document).ready(function () {
 
             // effet fondu en entrée à l'ouverture de la page
-            $('#about_section').fadeIn(1000);
-            $('#about_footer').fadeIn(1000);
-
+            
         });
     </script>
+
     <!-- hover bar bottom -->
     <script>
         $("[data-menu-underline-from-center] .anime").addClass("underline-from-center");
